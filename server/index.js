@@ -1,4 +1,4 @@
-import { createServer } from "http"
+import express from 'express'
 import { Server } from "socket.io"
 
 const httpServer = createServer()
